@@ -33,4 +33,4 @@ jobs:
 
       - name: Deploy Datomic ions
         run: |
-          clojure -A:ion-dev '{:op :deploy, :group "clj-ynab-prod", :rev "${{ github.sha }}"}'
+          clojure -A:ion-dev '{:op :deploy, :group "clj-ynab-primary", :rev "${{ github.sha }}"}'
