@@ -1,0 +1,7 @@
+{:environment :dev
+ :db {:connection {:dev {:server-type :dev-local
+                         :system "dev"}
+                   :prod {:system nil
+                          :server-type :ion
+                          :region "eu-central-1"
+                          :endpoint nil}}}}

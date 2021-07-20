@@ -1,0 +1,4 @@
+{:app-name "datomic-demo"
+ :lambdas {:router
+           {:fn demo.server/app
+            :description "Main API router function"}}}
