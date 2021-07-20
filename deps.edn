@@ -7,7 +7,11 @@
         metosin/muuntaja {:mvn/version "0.6.8"}
         com.cognitect/http-client {:mvn/version "0.1.106"}}
  :aliases
- {:dev {:extra-paths ["dev"]
+ {:ion-dev
+  {:extra-deps {com.datomic/ion-dev {:mvn/version "0.9.290"}}
+   :main-opts ["-m" "datomic.ion.dev"]}
+
+  :dev {:extra-paths ["dev"]
         :extra-deps {com.datomic/dev-local {:mvn/version "0.9.235"}
                      org.clojure/tools.namespace {:mvn/version "1.1.0"}}}
   :run-m {:main-opts ["-m" "blasterai.datomic-demo"]}
