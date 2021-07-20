@@ -6,12 +6,12 @@
         metosin/reitit-ring {:mvn/version "0.5.13"}
         org.clojure/tools.logging {:mvn/version "1.1.0"}
         metosin/muuntaja {:mvn/version "0.6.8"}
-        com.cognitect/http-client {:mvn/version "0.1.106"}}
+        com.cognitect/http-client {:mvn/version "0.1.106"}
+        com.datomic/ion {:mvn/version "0.9.50"}}
  :aliases
  {:ion-dev
   {:extra-deps {com.datomic/ion-dev {:mvn/version "0.9.290"}}
    :main-opts ["-m" "datomic.ion.dev"]}
-
   :dev {:extra-paths ["dev"]
         :extra-deps {com.datomic/dev-local {:mvn/version "0.9.235"}
                      org.clojure/tools.namespace {:mvn/version "1.1.0"}}}

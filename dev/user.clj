@@ -1,7 +1,7 @@
 (ns user
   (:require
    [clojure.tools.namespace.repl :refer [refresh]]
-   [cprop.core :refer [load-config cursor]]
+   [demo.config :refer [prepare-config]]
    [datomic.client.api :as d]))
 
-(def config (load-config))
+(def config (prepare-config))

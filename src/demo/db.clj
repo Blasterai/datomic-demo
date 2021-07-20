@@ -1,11 +1,10 @@
 (ns demo.db
   (:require
-   [clojure.tools.namespace.repl :refer [refresh]]
-   [cprop.core :refer [load-config cursor]]
+   [demo.config :refer [prepare-config]]
    [datomic.client.api :as d]))
 
-(def config (load-config))
-(def env (:environment config))
+(def config (prepare-config))
+(def env (:env config))
 (def db-config (:db config))
 
 (def client (d/client (get-in db-config [:connection env])))

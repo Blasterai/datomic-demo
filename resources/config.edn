@@ -1,4 +1,4 @@
-{:environment :dev
+{:env :dev
  :db {:connection {:dev {:server-type :dev-local
                          :system "dev"}
                    :prod {:system nil
