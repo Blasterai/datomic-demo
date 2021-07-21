@@ -28,8 +28,8 @@
   :dev {:extra-paths ["dev"]
         :extra-deps {com.datomic/dev-local {:mvn/version "0.9.235"}
                      org.clojure/tools.namespace {:mvn/version "1.1.0"}}}
-  :run-m {:main-opts ["-m" "blasterai.datomic-demo"]}
-  :run-x {:ns-default blasterai.datomic-demo
+  :run-m {:main-opts ["-m" "demo.server"]}
+  :run-x {:ns-default demo.server
           :exec-fn greet
           :exec-args {:name "Clojure"}}
   :test {:extra-paths ["test"]
@@ -43,5 +43,5 @@
             :exec-fn hf.depstar/uberjar
             :exec-args {:aot true
                         :jar "datomic-demo.jar"
-                        :main-class "blasterai.datomic-demo"
+                        :main-class "demo.server"
                         :sync-pom true}}}}
