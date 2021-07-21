@@ -1,6 +1,6 @@
 {:paths ["src" "resources"]
  :mvn/repos {"datomic-cloud" {:url "s3://datomic-releases-1fc2183a/maven/releases"}}
- :deps {org.clojure/clojure {:mvn/version "1.10.3"}
+ :deps {org.clojure/clojure {:mvn/version "1.10.2-rc3"}
         cprop/cprop {:mvn/version "0.1.18"}
         metosin/reitit {:mvn/version "0.5.13"}
         metosin/reitit-ring {:mvn/version "0.5.13"}
