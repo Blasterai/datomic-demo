@@ -15,7 +15,7 @@
         com.cognitect/s3-creds {:mvn/version "0.1.23"}
         org.clojure/tools.reader {:mvn/version "1.3.2"}
         org.clojure/test.check {:mvn/version "0.10.0"}
-        com.fasterxml.jackson.core {:mvn/version "2.10.1"}
+        com.fasterxml.jackson {:mvn/version "2.10.1"}
         com.amazonaws/aws-java-sdk-kms {:mvn/version "1.11.826"}
         com.amazonaws/aws-java-sdk-s3 {:mvn/version "1.11.826"}
         }
