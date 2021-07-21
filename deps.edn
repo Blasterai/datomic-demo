@@ -9,15 +9,15 @@
         com.cognitect/http-client {:mvn/version "0.1.106"}
         com.datomic/ion {:mvn/version "0.9.50"}
         com.datomic/client-cloud {:mvn/version "0.8.113"}
-        com.cognitect/transit-java #:mvn{:version "0.8.337"}
-        commons-codec/commons-codec #:mvn{:version "1.13"}
-        com.fasterxml.jackson.core/jackson-core #:mvn{:version "2.10.1"}
-        com.cognitect/transit-clj #:mvn{:version "0.8.319"}
-        com.cognitect/s3-creds #:mvn{:version "0.1.23"}
-        org.clojure/tools.reader #:mvn{:version "1.3.2"}
-        org.clojure/test.check #:mvn{:version "0.10.0"}
-        com.amazonaws/aws-java-sdk-kms #:mvn{:version "1.11.826"}
-        com.amazonaws/aws-java-sdk-s3 #:mvn{:version "1.11.826"}}
+        com.cognitect/transit-java {:mvn/version "0.8.337"}
+        commons-codec/commons-codec {:mvn/version "1.13"}
+        com.fasterxml.jackson.core/jackson-core {:mvn/version "2.10.1"}
+        com.cognitect/transit-clj {:mvn/version "0.8.319"}
+        com.cognitect/s3-creds {:mvn/version "0.1.23"}
+        org.clojure/tools.reader {:mvn/version "1.3.2"}
+        org.clojure/test.check {:mvn/version "0.10.0"}
+        com.amazonaws/aws-java-sdk-kms {:mvn/version "1.11.826"}
+        com.amazonaws/aws-java-sdk-s3 {:mvn/version "1.11.826"}}
         }
  :aliases
  {:ion-dev
