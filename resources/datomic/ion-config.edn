@@ -1,4 +1,1 @@
-{:app-name "clj-ynab"
- :lambdas {:router
-           {:fn demo.server/app
-            :description "Main API router function"}}}
+
