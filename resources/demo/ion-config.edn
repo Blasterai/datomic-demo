@@ -1,0 +1,7 @@
+{:allow [demo.db/conn]
+ :lambdas {:all-events
+           {:fn demo.lambdas/all-events
+            :description "get all events from db"
+            }}
+ :app-name "clj-ynab"
+ }
