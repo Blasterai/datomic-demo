@@ -1,6 +1,6 @@
-{:allow [demo.db/conn]
+{:allow [datomic.ion.demo.db/conn]
  :lambdas {:all-events
-           {:fn demo.lambdas/all-events
+           {:fn datomic.ion.demo.lambdas/all-events
             :description "get all events from db"
             }}
  :app-name "clj-ynab"
