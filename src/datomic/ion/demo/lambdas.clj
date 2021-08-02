@@ -1,4 +1,4 @@
-(ns demo.lambdas)
+(ns datomic.ion.demo.lambdas)
 (:require
  [demo.db as db]
  [datomic.client.api :as d])

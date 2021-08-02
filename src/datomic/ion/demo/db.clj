@@ -1,6 +1,6 @@
-(ns demo.db
+(ns datomic.ion.demo.db
   (:require
-   [demo.config :refer [prepare-config]]
+   [datomic.ion.demo.config :refer [prepare-config]]
    [datomic.client.api :as d]))
 
 (def config (prepare-config))

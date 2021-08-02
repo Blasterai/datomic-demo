@@ -1,4 +1,4 @@
-(ns demo.config
+(ns datomic.ion.demo.config
   (:require
    [cprop.core :refer [load-config cursor]]
    [clojure.walk :as walk]
@@ -30,4 +30,5 @@
   (prod? config)
   (ion/get-params {:path "/datomic-shared/prod/clj-ynab/"})
   (get-prod-params!)
-  (prepare-config))
+  (prepare-config)
+ )

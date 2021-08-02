@@ -2,10 +2,10 @@
  :mvn/repos {"datomic-cloud" {:url "s3://datomic-releases-1fc2183a/maven/releases"}}
  :deps {org.clojure/clojure {:mvn/version "1.10.2-rc3"}
         cprop/cprop {:mvn/version "0.1.18"}
-        metosin/reitit {:mvn/version "0.5.13"}
-        metosin/reitit-ring {:mvn/version "0.5.13"}
+        metosin/reitit {:mvn/version "0.4.2"}
+        metosin/reitit-ring {:mvn/version "0.4.2"}
         org.clojure/tools.logging {:mvn/version "1.1.0"}
-        metosin/muuntaja {:mvn/version "0.6.8"}
+        metosin/muuntaja {:mvn/version "0.5.0"}
         com.cognitect/http-client {:mvn/version "0.1.106"}
         com.datomic/ion {:mvn/version "0.9.50"}
         com.datomic/client-cloud {:mvn/version "0.8.113"}
@@ -15,9 +15,6 @@
         com.cognitect/s3-creds {:mvn/version "0.1.23"}
         org.clojure/tools.reader {:mvn/version "1.3.2"}
         org.clojure/test.check {:mvn/version "0.10.0"}
-        com.fasterxml.jackson.core/jackson-core {:mvn/version "2.10.1"}
-        com.fasterxml.jackson.core/jackson-annotations {:mvn/version "2.10.1"}
-        com.fasterxml.jackson.core/jackson-databind {:mvn/version "2.10.1"}
         com.amazonaws/aws-java-sdk-kms {:mvn/version "1.11.826"}
         com.amazonaws/aws-java-sdk-s3 {:mvn/version "1.11.826"}
         }

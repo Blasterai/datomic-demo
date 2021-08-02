@@ -1,4 +1,4 @@
-(ns demo.server
+(ns datomic.ion.demo.server
   (:gen-class)
   (:require
    [clojure.tools.logging :as log]
@@ -10,7 +10,7 @@
     :refer
     [format-negotiate-middleware format-request-middleware format-response-middleware]]
    [reitit.ring.middleware.parameters :refer [parameters-middleware]]
-   [demo.db :as db]
+   [datomic.ion.demo.db :as db]
    ))
 
 (def router
