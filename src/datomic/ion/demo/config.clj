@@ -14,7 +14,7 @@
   (into {} (for [[k v] m] [k (f v)])))
 
 (defn get-prod-params! []
-  (-> {:path "/datomic-shared/prod/clj-ynab/"}
+  (-> {:path "/datomic-shared/prod/demo-project/db-conn/"}
       (ion/get-params)
       (walk/keywordize-keys)
       (map-vals edn/read-string)

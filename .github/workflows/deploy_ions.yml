@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - master
+      - test_new
 
 jobs:
   deploy-aws:
@@ -33,4 +33,4 @@ jobs:
 
       - name: Deploy Datomic ions
         run: |
-          clojure -A:ion-dev '{:op :deploy, :group "clj-ynab-primary", :rev "${{ github.sha }}"}'
+          clojure -A:ion-dev '{:op :deploy, :group "demo-project-primary", :rev "${{ github.sha }}"}'

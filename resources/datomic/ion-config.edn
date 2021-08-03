@@ -3,5 +3,5 @@
            {:fn datomic.ion.demo.lambdas/all-events
             :description "get all events from db"
             }}
- :app-name "clj-ynab"
+ :app-name "demo-project"
  }
